@@ -1,0 +1,31 @@
+{
+  "accessWidener": "accesswidener",
+  "schemaVersion": 1,
+  "id": "vegaxdlc",
+  "version": "1.1",
+  "icon": "assets/minecraft/icon.png",
+  "name": "CodeDLC",
+  "description": "CodeDLC - 1.1 - Recode",
+  "authors": [
+    "CodeDev"
+  ],
+  "contact": {
+    "website": "https://codedlc.rf.gd",
+    "repo": "none"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fun.vegax.VegaXDLC"
+    ]
+  },
+  "mixins": [
+    "mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.8",
+    "fabric": "*",
+    "minecraft": "~1.21.4"
+  }
+}
